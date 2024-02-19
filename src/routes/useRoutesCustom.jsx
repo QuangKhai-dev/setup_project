@@ -4,7 +4,7 @@ const useRoutesCustom = () => {
   let element = useRoutes([
     {
       path: '/home',
-      element: <h1>Hello</h1>,
+      element: <h1 className="text-red-500 text-center">Hello</h1>,
     },
     {
       path: '/demo',
