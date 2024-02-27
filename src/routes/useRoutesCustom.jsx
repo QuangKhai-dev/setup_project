@@ -1,7 +1,10 @@
 import { useRoutes } from 'react-router-dom';
-
 const useRoutesCustom = () => {
-  let element = useRoutes([]);
+  let element = useRoutes([
+    {
+      path: '/',
+    },
+  ]);
 
   return element;
 };
